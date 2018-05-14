@@ -1,0 +1,141 @@
+body {font-family: 'Raleway', serif;} 
+
+
+.top-header {
+width : 100%;
+
+height : 40px;
+
+
+background-color : #2980b9;
+border-bottom: #333; position : relative;
+margin-bottom : 10px;
+}
+
+
+
+.top-header span:first-child {
+color : #fff;
+position : absolute;
+left : 7px;
+top : 8px;
+font-size : 16px;
+}
+
+
+.top-header span:last-child {
+color : #fff;
+position : absolute;
+top : 10px;
+right : 20px;
+font-size : 14px;
+}
+
+
+.logout-btn {
+color : #fff;
+cursor : pointer;
+}
+.logout-btn:hover {
+color : red;
+}
+
+
+
+
+.form-data-container {
+width : 82%;
+height : 500px;
+float : right;
+padding-right : 5px;
+}
+
+
+.control-panel-container {
+width : 17%;
+height : 500px;
+float : left;
+padding : 0 0 0 5px;
+
+}
+
+.control-panel-container header {
+width : 100%;
+height : 50px;
+background-color : #2980b9;
+position : relative;
+}
+
+.control-panel-container header span {
+font-size : 15px;
+color : #fff;
+position : absolute;
+left : 10px;
+top : 16px;
+font-weight : bold;
+letter-spacing : 2px;
+}
+
+.control-panel-container ul {
+padding : 0;
+}
+
+.control-panel-container ul li {
+
+position : relative;
+width : 100%;
+height : 45px;
+}
+
+.control-panel-container ul li a {
+
+position : absolute;
+top : 14px;
+left : 10px;
+transition : all 0.2s;
+
+}
+
+.control-panel-container  ul li a:hover {padding-left : 7px;}
+
+
+.control-panel-container  ul li:nth-child(2n+1) {
+
+background-color : #F2F3F3;
+} 
+
+.produit-form {
+
+padding-top : 10px;
+
+}
+
+
+footer {
+height : 20px;
+width : 100%;
+background-color : #2980b9;
+clear : both;
+position : fixed;
+bottom : 0px;
+}
+
+.mytable th{background-color : #2980b9;color : #fff}
+.mycontainer {
+    width : 600px;
+    margin : 100px auto;
+}
+
+.search{
+    position:absolute;
+    top:115px;
+    right:40px;
+    width:28%;
+}
+.search-position
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
